@@ -119,6 +119,7 @@
     align-self: flex-start;
     margin-left: 90px;
     position: absolute;
+    z-index: -1;
 }
 
 .c5{
@@ -126,6 +127,30 @@
 
 }
 
+.container6{
+    font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    display: flex;
+    margin-top: 300px;
+    margin-bottom: 200px;
+    justify-content: space-evenly;
+
+}
+
+.imgs{
+    width: 220;
+    height: 220;
+    padding: 10px;
+    background-color: rgb(247, 247, 246);
+    border-radius: 50px;
+}
+
+.c6link{
+    color: #000000;
+    align-self: flex-end;
+    position: absolute;
+    font-size: 15px;
+}
 
 .d1{/*typeform logo*/
     background-color: black;
