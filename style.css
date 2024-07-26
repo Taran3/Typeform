@@ -1,6 +1,8 @@
 *{
     box-sizing: border-box;
     font-family: Apercu;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 *::selection{
     background-color: rgb(183, 183, 183);
@@ -11,6 +13,10 @@
     src: url(apercu/apercu_regular_pro.otf);
 }
 
+
+body{
+    background-color: rgb(25, 25, 25);
+}
 
 .container1{
     width: 100%;
@@ -232,8 +238,12 @@
     color: #000000;
 }
 
+
 .c7_link{
     text-align: center;
+}
+
+.c7_link a{
     font-weight: bold;
     font-size: 20px;
     padding-top: 50px;
@@ -270,7 +280,70 @@
     padding-bottom: 100px;
 }
 
+.white-section{
+    background-color: #ffffff;
+    border-radius: 100px;
+    position: relative;
+    z-index: -1;
+}
 
+.black-section{
+    color: #fff;
+}
+
+.sec1{
+    text-align: center;
+}
+
+.blacksec-text1{
+    font-size: 45px;
+    padding-top: 100px;
+}
+
+.blacksec-text2{
+    padding: 15px;
+    font-size: 15px;
+}
+.blacksec-list{
+    padding-bottom: 30px;
+}
+
+.blacksec-btns{
+    padding-bottom: 100px;
+}
+
+.blacksec-btn1{
+    font-weight: bold;
+    font-size: 15px;
+    width: 15%;
+    padding: 15px 8px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: none;
+    transition: opacity 0.5s;
+    margin-right: 20px;
+}
+
+.blacksec-btn1:hover{
+    opacity: 50%;
+}
+.blacksec-btn2:hover{
+    opacity: 50%;
+}
+
+.blacksec-btn2{
+    font-weight: bold;
+    font-size: 15px;
+    width: 15%;
+    padding: 15px 8px;
+    border-radius: 10px;
+    background-color: rgb(25, 25, 25);
+    color: #ffffff;
+    border: 1px solid white;
+    transition: opacity 0.5s;
+
+
+}
 
 .d1{/*typeform logo*/
     background-color: black;
