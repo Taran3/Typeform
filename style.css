@@ -369,23 +369,6 @@ body{
 }
 
 
-.d1{/*typeform logo*/
-    background-color: black;
-    border-radius: 7px;
-    width: 25px;
-    height: 25px;
-}
-.d2{/*typeform logo*/
-    width: 10;
-    height: 25px;
-    border-radius: 50px;
-    background-color: black;
-    order: -1;
-    margin: -3;
-
-
-}
-
 .l{
     color: rgb(0, 0, 0);
     font-weight: bold;
