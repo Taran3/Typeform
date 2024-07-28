@@ -32,6 +32,7 @@ body{
 
 .container2{
     display: flex;
+    justify-content: center;
 
 }
 
@@ -57,6 +58,8 @@ body{
 }
 
 .container3 label{
+    text-align: center;
+    width: 100%;
     font-size: 20px; 
     padding: 0px 250px; 
 }
@@ -65,13 +68,14 @@ body{
     display: flex;
     font-size: 20px;
     padding: 10px 100px;
-    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 
 .c4_lbl1{
+    width: 100%;
     font-size: 50px;
     text-align: center;
     padding: 30px 100px;
@@ -99,6 +103,7 @@ body{
     font-size: 19px;
     gap: 30px;
     padding-left: 100px;
+    justify-content: center;
 
 }
 
@@ -321,7 +326,7 @@ body{
 }
 
 
-.row1{
+.sec2{
     max-width: 1080px;
     margin: auto;
     display: flex;
@@ -330,13 +335,7 @@ body{
 }
 
 
-.row2{
-    max-width: 1080px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 10px 10px;
-}
+
 
 .row1-items{
     padding: 30px 60px;
