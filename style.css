@@ -14,9 +14,6 @@
 }
 
 
-body{
-    background-color: rgb(25, 25, 25);
-}
 
 .container1{
     width: 100%;
@@ -26,7 +23,6 @@ body{
     justify-content: space-around;
     background-color: #ffffff;
     position: sticky;
-    position: -webkit-sticky;
     top: 0;
 }
 
@@ -265,11 +261,21 @@ body{
 .white-section{
     background-color: #ffffff;
     border-radius: 100px;
+    position: relative;
+    z-index: 2;
 
 }
 
+
+
+
 .black-section{
     color: #fff;
+    background-color: rgb(25, 25, 25);
+    margin-top: -100px;
+    padding-top: 100px;
+
+    
 }
 
 .sec1{
@@ -296,7 +302,7 @@ body{
 .blacksec-btn1{
     font-weight: bold;
     font-size: 15px;
-    width: 15%;
+    width: 20%;
     padding: 15px 8px;
     border-radius: 10px;
     background-color: #ffffff;
@@ -315,7 +321,7 @@ body{
 .blacksec-btn2{
     font-weight: bold;
     font-size: 15px;
-    width: 15%;
+    width: 20%;
     padding: 15px 8px;
     border-radius: 10px;
     background-color: rgb(25, 25, 25);
@@ -325,42 +331,41 @@ body{
 }
 
 
-.sec2{
-    max-width: 1080px;
-    margin: auto;
+
+.sec2 {
+    background-color: rgb(25, 25, 25);;
+    color: #fff;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
+.sec2-columns{
+    padding-top: 50px;
+    font-size: 18px;
 
-
-
-.row1-items{
-    padding: 30px 60px;
 }
 
-.row2-dropdownmenu svg{
-    color: #ffffff;
-    rotate: 180deg;
-    fill: currentColor;
-    padding-left: 2px;
-    transition: all  0.5s;
+.sec2-columns label {
+    font-size: 16px;
+    font-weight: bold;
 }
 
-.row2-dropdownmenu{
-    transition: opacity 0.5s;
+.sec2-columns ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.row2-dropdownmenu:hover{
-    opacity: 60%;
+.sec2-columns ul li {
+    padding: 10px 5px;
 }
 
-
-.row2-btn{
-    color: #ffffff;
+.sec2-columns ul li a {
+    color: #fff;
     text-decoration: none;
 }
+
 
 
 .l{
@@ -372,6 +377,7 @@ body{
 .l1{ /*typeform title*/
     font-size: 25px;
     transition: all 2s;
+    overflow: hidden;
 }
 
 .l1:hover{
